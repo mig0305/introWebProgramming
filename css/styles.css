@@ -1,0 +1,140 @@
+
+body {
+    background: linear-gradient(#f1d0f1 0%, #e1edf9 20%, #bedbf8 30%, #e1edf9 50%, #bedbf8 90%, #e1edf9 100%);
+}
+
+header {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1a2b4c;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+img {
+    width: 30%; 
+    border-radius: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    margin-top: 15px;
+}
+
+.nav-button {
+    border-radius: 30px;
+    padding: 0.6rem;
+    border-top: 0px;
+    background-color: #3b6ea5;
+    border-color: #3b6ea5;
+    color:#cfe3f8;
+    font-weight: bolder;
+}
+
+.section-title {
+    color: #1a2b4c;
+    font-family: "Fira Code", "Consolas", monospace;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin-left: 1.1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.section-subtitle {
+    color: #1a2b4c;
+    font-family: "Fira Code", "Consolas", monospace;
+    font-size: 1.1rem;
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-body {
+    color: #1a2b4c;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 1rem;
+    margin-left: 4rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+    width: 80%;
+
+}
+
+.skills {
+    width: 88%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0rem 1rem 0.5rem 4rem;
+}
+
+li {
+    border-radius: 10px;
+    padding: 1rem;
+    border-top: 0px;
+    background-color: #cfe3f8;;
+    border-color:#cfe3f8;
+    color:#3b6ea5;
+    font-weight: bolder;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto 0 auto;
+    max-width: 600px;
+}
+
+form .section-title {
+    margin-left: 2rem;
+}
+
+label {
+    color: #1a2b4c;
+    font-family: "Fira Code", "Consolas", monospace;
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+    width: 28%;
+}
+
+textarea {
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+    width: 60%;
+}
+
+.submission-button {
+    border-radius: 15px;
+    padding: 1.1rem;
+    border-top: 0px;
+    background-color: #3b6ea5;
+    border-color: #3b6ea5;
+    color:#f6f8fa;
+    font-weight: bolder;
+    margin-left: 2rem;
+}
+
+footer {
+    background-color: #1a2b4c;
+    color: #f4f6f8;
+    padding: 1rem 9rem 1rem 8rem;
+    margin: 3rem 0.5rem 0.9rem 0.5rem;
+}

@@ -3,94 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>About me</title>
 </head>
 <body>
     <header>
         <h1>Miguel Aoun</h1>
         <p>Aspiring Software & AI Engineer</p>
+        <img src="images/miguel-image.jpeg" alt="A photo of me, Miguel Aoun, from my High School graduation">
     </header>
     
-    <img src="miguel-image.jpeg" alt="A photo of me, Miguel Aoun, from my High School graduation" width="270">
-
     <nav>
-        <button>About me</button> &nbsp;
-        <button>Bio</button> &nbsp;
-        <button>Skills</button> &nbsp;
-        <button>Experience</button> &nbsp;
-        <button>Education</button> &nbsp;
+        <button class="nav-button"><a href="#about-me">About me</a></button> 
+        <button class="nav-button"><a href="#bio">Bio</a></button> 
+        <button class="nav-button"><a href="#skills">Skills</a></button>
+        <button class="nav-button"><a href="#experience">Experience</a></button> 
+        <button class="nav-button"><a href="#education">Education</a></button>
     </nav>
     
     <main>
-        <h2>About me:</h2>
-        <p>
-                I am a 4th year software engineering student,
+        <h2 class="section-title" id="about-me">About me:</h2>
+        <p class="section-body">
+            I am a 4th year software engineering student,
 
-                with great foundations in principles such as Python, C++ and OOP, and I'm looking forward to discovering new languages, notably 
+            with great foundations in principles such as Python, C++ and OOP, and I'm looking forward to discovering new languages, notably 
 
-                HTML,CSS, JavaScript and Java, as well as covering other core concepts like Design Patterns, while also solidifying my understanding and grasp 
+            HTML, CSS, JavaScript and Java, as well as covering other core concepts like Design Patterns, while also solidifying my understanding and grasp 
 
-                of key AI and NLP fundamentals which I covered for the first time during my latest summer internship. The intersection of software engineering and AI quite facsinates me, and I am planning to deepen that focus going forward.
+            of key AI and NLP fundamentals which I covered for the first time during my latest summer internship. The intersection of software engineering and AI quite facsinates me, and I am planning to deepen that focus going forward.
                     
         </p>
 
-        <h2>Bio:</h2>
-        <p>
-            Ever since my youngest years, I've always had a curiosity for how things actually work, and how they were made.
-            From my very first iPad to my newest PC, technology, its subsequent trends and evolution often have intrigued me, and that was essentially what led me to pursue a career path within this field, hence my choice to opt for a degree in Computer Engineering.
-        </p>
-        <p>
-            Engineers are almost always involved in solving real-world problems and coming up with innovative solutions, and eventually becoming a part of this community is what pushes me everyday.
-            Like many others, I learn best by doing, practicing and challenging myself, pairing every new concept I learn with fruitful exercises and projects.
-        </p>
-        <p>
-            This mindset is also what drew me towards this blend of software and AI engineering. Whether it's experimenting with large language models, or building interactive web pages, I see every project as another step towards becoming a well-rounded engineer. 
-        </p>
+        <h2 class="section-title" id="bio">Bio:</h2>
+        <div class="section-body">
+            <p>
+                Ever since my youngest years, I've always had a curiosity for how things actually work, and how they were made.
+                From my very first iPad to my newest PC, technology, its subsequent trends and evolution often have intrigued me, and that was essentially what led me to pursue a career path within this field, hence my choice to opt for a degree in Computer Engineering.
+            </p>
 
-        <h2>Skills:</h2>
-        <pre>
-            Python
+            <p>
+                Engineers are almost always involved in solving real-world problems and coming up with innovative solutions, and eventually becoming a part of this community is what pushes me everyday.
+                Like many others, I learn best by doing, practicing and challenging myself, pairing every new concept I learn with fruitful exercises and projects.
+            </p>
 
-            C++
+            <p>
+                This mindset is also what drew me towards this blend of software and AI engineering. Whether it's experimenting with large language models, or building interactive web pages, I see every project as another step towards becoming a well-rounded engineer. 
+            </p>
+        </div>
+        
+        <div class="skills" id="skills">
+            <h2 class="section-title">Skills:</h2>
+            <ul>
+                <li>Python</li>
 
-            OOP (Object Oriented Programming)
+                <li>C++</li>
 
-            AI Prompting
+                <li>OOP (Object Oriented Programming)</li>
 
-            Git & GitHub
+                <li>AI Prompting</li>
 
-            Matlab
+                <li>Git & GitHub</li>
 
-            Simulink
+                <li>Matlab</li>
 
-            Subnetting
+                <li>Simulink</li>
 
-            Switching
+                <li>Subnetting</li>
 
-            Routing
+                <li>Switching</li>
 
-            Adobe Photoshop
-        </pre>
+                <li>Routing</li>
 
-        <h2>Experience: </h2>
-        <h4>
+                <li>Adobe Photoshop</li>
+            </ul>
+        </div>
+
+        <h2 class="section-title" id="experience">Experience: </h2>
+        <h4 class="section-subtitle">
             Artificial Intelligence Intern at Klev Tech (June 2026):
         </h4>
-          <p>
-Established a real foundation about how large language models work, before diving deeper into Prompt Engineering essentials (among
+          <p class="section-body">
+            Established a real foundation about how large language models work, before diving deeper into Prompt Engineering essentials (among
 
-others,chaining multiple prompts together for more reliable results), as well as running NLP pipelines such as Sentiment Analysis 
+            others,chaining multiple prompts together for more reliable results), as well as running NLP pipelines such as Sentiment Analysis 
 
-and Summarization, while also getting into Semantic Search and Retrieval Augmented Generation (RAG) principles.
+            and Summarization, while also getting into Semantic Search and Retrieval Augmented Generation (RAG) principles.
           </p>
-        <h2>Education: </h2>
-        <h4>Bachelor's Degree in Computer and Telecommunications Engineering (USJ-ESIB)</h4>
-        <pre>    Specialization: Software Engineer</pre>
+        <h2 class="section-title" id="education">Education: </h2>
+        <h4 class="section-subtitle">Bachelor's Degree in Computer and Telecommunications Engineering at USJ-ESIB (2023-2028)</h4>
+        <p class="section-body">Specialization: Software Engineer</p>
 
     </main>
-    <br>
-    <h2>Contact form:</h2>
+  
     <form>
+        <h2 class="section-title">Contact form:</h2>
         <label>Name: </label>
         <input type="text">
         <br>
@@ -104,7 +110,7 @@ and Summarization, while also getting into Semantic Search and Retrieval Augment
         <textarea id="message" name="message" required></textarea>
         <br>
         <br>
-        <button type="submit"> Submit details </button>
+        <button type="submit" class="submission-button"> Submit details </button>
     </form>
 
     <footer>
